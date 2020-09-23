@@ -27,7 +27,7 @@ function generatePassword() {
     console.log("Uppercase = " + uppercaseChoice);
     var lowercaseChoice = confirm("Do you want to include lowercase letters?");
     console.log("Lowercase = " + lowercaseChoice);
-    var numbersChoice = confirm("Do you want to include lowercase letters?");
+    var numbersChoice = confirm("Do you want to include numbers?");
     console.log("Numbers = " + numbersChoice);
     var specialCharChoice = confirm("Do you want to include special characters?");
     console.log("Special Characters = " + specialCharChoice);
@@ -63,13 +63,14 @@ function generatePassword() {
         password += possibleString.charAt(Math.floor(Math.random() * possibleString.length));
     };
     console.log(password);
+    return password;
 }
 
 //write password back to #password element in UI
 function writePassword() {
     var password = generatePassword();
     var passwordText = document.querySelector('#password');
-    passwordText.value = password;
+    passwordText.innerHTML = password;
 };
 
 // Add event listener to generate button

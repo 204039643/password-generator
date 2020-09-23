@@ -32,8 +32,8 @@ Clone my Github reposity to your local machine: https://github.com/204039643/pas
 
 ## Credits
 
-W3C Schools HTML semantics: https://www.w3schools.com/html/html5_semantic_elements.asp
-Bootstrap CDN: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+W3C Schools HTML JavaScript: https://www.w3schools.com/js/default.asp
+MDN web dics JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ## License
 

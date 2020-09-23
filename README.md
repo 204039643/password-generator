@@ -10,7 +10,7 @@ Webpage with a centered card that allows a user to generate a custom password us
 
 URL of deployed app: https://204039643.github.io/02-responsive-portfolio/
 
-![screenshotofmywebpage](./Assets/Images/myPWgeneratorcreenshot1.png)
+![screenshotofmywebpage](./Assets/myPWgeneratorcreenshot1.png)
 
 - [Installation](#installation)
 - [Usage](#usage)
